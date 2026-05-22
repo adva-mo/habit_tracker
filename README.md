@@ -2,6 +2,10 @@
 
 A mobile-first Progressive Web App for building and tracking daily habits. Runs entirely offline — no account, no server, no data leaves your device.
 
+**Live:** https://habit-tracker-liart-theta.vercel.app
+
+> Open on your phone → tap "Add to Home Screen" → works offline from that point on.
+
 ## Features
 
 - **Daily check-ins** — tap to complete, long-press to add a note
