@@ -9,7 +9,7 @@ interface PageHeaderProps {
 
 export function PageHeader({ title, subtitle, left, right }: PageHeaderProps) {
   return (
-    <div className="flex items-center justify-between px-5 pt-4 pb-2">
+    <div className="flex items-center justify-between px-5 pb-2" style={{ paddingTop: 'calc(env(safe-area-inset-top, 0px) + 1rem)' }}>
       <div className="flex items-center gap-3">
         {left}
         <div>
